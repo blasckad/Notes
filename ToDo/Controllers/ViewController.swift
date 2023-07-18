@@ -49,7 +49,6 @@ class ViewController: UICollectionViewController, AddMemoDelegate, DeleteMemoDel
         MemoSectionInfo.removeAll()
         MemoSectionInfo = storageController.getMemos()
         MemoSectionInfo.reverse()
-//        collectionView.reloadData()
     }
     
     private func updateCollectionView() {

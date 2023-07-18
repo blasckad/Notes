@@ -35,22 +35,6 @@ class LabelInfoViewCell: UITableViewCell {
     private func setupLayout() {
         isAccessibilityElement = true
         
-//        let areaEffect = UIVisualEffectView(effect: UIBlurEffect(style: .systemMaterial))
-//        areaEffect.clipsToBounds = true
-//        areaEffect.layer.cornerRadius = 16
-//
-//        addSubview(areaEffect)
-//        areaEffect.translatesAutoresizingMaskIntoConstraints = false
-//
-//        NSLayoutConstraint.activate([
-//            areaEffect.leadingAnchor.constraint(equalTo: leadingAnchor),
-//            areaEffect.topAnchor.constraint(equalTo: topAnchor),
-//            areaEffect.bottomAnchor.constraint(equalTo: bottomAnchor),
-//            areaEffect.trailingAnchor.constraint(equalTo: trailingAnchor)
-//        ])
-//
-//        areaEffect.contentView.addSubview(Label)
-        
         addSubview(Label)
         
         Label.translatesAutoresizingMaskIntoConstraints = false

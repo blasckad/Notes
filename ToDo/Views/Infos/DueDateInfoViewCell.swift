@@ -55,22 +55,22 @@ class DueDateInfoViewCell: UITableViewCell {
         let dateFormatter = DateFormatter()
         
         dateFormatter.dateFormat = "yyyy"
-        var yearString = dateFormatter.string(from: dueDate)
+        let yearString = dateFormatter.string(from: dueDate)
         
         dateFormatter.dateFormat = "LLLL"
-        var monthString = dateFormatter.string(from: dueDate)
+        let monthString = dateFormatter.string(from: dueDate)
         
         dateFormatter.dateFormat = "dd"
-        var dayString = dateFormatter.string(from: dueDate)
+        let dayString = dateFormatter.string(from: dueDate)
         
         dateFormatter.dateFormat = "hh"
-        var hourString = dateFormatter.string(from: dueDate)
+        let hourString = dateFormatter.string(from: dueDate)
         
         dateFormatter.dateFormat = "mm"
-        var minuteString = dateFormatter.string(from: dueDate)
+        let minuteString = dateFormatter.string(from: dueDate)
         
         dateFormatter.dateFormat = "a"
-        var amPmString = dateFormatter.string(from: dueDate)
+        let amPmString = dateFormatter.string(from: dueDate)
         
         DueDate.text = monthString + " " + dayString + ", " + yearString + " at " + hourString + ":" + minuteString + " " + amPmString
     }
