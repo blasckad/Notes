@@ -84,7 +84,7 @@
 		D91BD1242A4CEDCF005BE4ED = {
 			isa = PBXGroup;
 			children = (
-				D91BD12F2A4CEDCF005BE4ED /* ToDo */,
+				D91BD12F2A4CEDCF005BE4ED /* Notes */,
 				D91BD12E2A4CEDCF005BE4ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D91BD12F2A4CEDCF005BE4ED /* ToDo */ = {
+		D91BD12F2A4CEDCF005BE4ED /* Notes */ = {
 			isa = PBXGroup;
 			children = (
 				D937E62F2A604E2E00E33132 /* Extension */,
@@ -112,7 +112,7 @@
 				D91BD13E2A4CEDD0005BE4ED /* LaunchScreen.storyboard */,
 				D91BD1732A57721A005BE4ED /* Localizable.strings */,
 			);
-			path = ToDo;
+			path = Notes;
 			sourceTree = "<group>";
 		};
 		D91BD1492A4CF31C005BE4ED /* AppDelegate */ = {
@@ -452,7 +452,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82MKLV5JTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -479,7 +479,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82MKLV5JTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
